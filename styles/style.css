@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+main{
+    background-color: rgb(165, 182, 182);
+    text-align: center;
+    height: max(100vh, 500px);
+}
+
+h1{
+    margin: auto;
+}
+
+.board{
+    width: 200px;
+    background-color: hsl(0, 0%, 23%);
+    display: grid;
+    grid-template-columns: repeat(3, 60px);
+    gap: 10px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.square{
+    background-color: hsl(0, 0%, 61%);
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.controls{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 2rem;
+    max-width: 50%;
+    margin-inline: auto;
+}
+
+.radiocontainer{
+    text-align: left;
+  
+}
+
+.inplay{
+    display: none;
+}
+
+.player{
+    font-size: 1.5rem;
+}
+
+
+
+.squarehover:active{
+    cursor: pointer;
+    background-color: hsl(98, 100%, 44%);
+}
+
+@media (hover: hover) {
+    .squarehover:hover{
+        cursor: pointer;
+        background-color: hsl(98, 100%, 44%);
+    }
+}
+
+
+/* @media (hover: none) {
+    .square:hover{
+        cursor: pointer;
+        background-color: hsl(98, 100%, 44%);
+    }
+} */
+/* @media (hover: hover) {
+    .square:hover,
+    :focus:not(:square){
+        cursor: pointer;
+        background-color: hsl(98, 100%, 44%);
+    }
+} */
+
+/* :focus:not(:focus-visible) {
+    outline: 0;
+    box-shadow: none;
+  } */

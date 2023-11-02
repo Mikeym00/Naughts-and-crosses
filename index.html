@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naughts and crosses</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+
+    <main>
+        <h1>Naughts and Crosses</h1>
+        <p class="player">Turn:</p>
+        <div class="board">
+                <div id="00" class="square"></div>
+                <div id="01" class="square"></div>
+                <div id="02" class="square"></div>
+       
+                <div id="10" class="square"></div>
+                <div id="11" class="square"></div>
+                <div id="12" class="square"></div>
+         
+                <div id="20" class="square"></div>
+                <div id="21" class="square"></div>
+                <div id="22" class="square"></div>
+        </div>
+
+        <div class="controls">
+            <div class="radiocontainer">
+                <input type="radio" id="2player" name="mode" value="TWO" checked>
+                <label for="2player">2 Player</label>
+                <br>
+                <input type="radio" id="1player" name="mode" value="ONE">
+                <label for="1player">1 Player VS Computer</label>
+            </div>
+            <button class="play">Play</button>
+
+    </main>
+    <script src="scripts/nxc.js"></script>
+</body>
+</html>
