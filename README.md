@@ -1,4 +1,6 @@
-### Live page - [Here](https://micheal-wooler.com/#projects). 
+# Naughts and Crosses
+
+### Live page - [Here](https://micheal-wooler.com/apps/passwordgen/passwordgen.html). 
 
 ### Tools/languages used 
 
